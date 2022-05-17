@@ -5,7 +5,7 @@ export const Container = styled.div`
     margin: 20px auto;
     width: 98%;
     background-color: #fff;
-    box-shadow: 0px 0px 5px #ccc;
+    box-shadow:  2.5px 2.5px 7.5px #c3c3c3,  -2.5px -2.5px 7.5px #ffffff;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
@@ -30,6 +30,7 @@ export const Input = styled.input`
     padding: 5px 10px;
     font-size: 15px;
     border: 1px solid #ccc;
+    background-color: #fff;
 `
 export const RadioGroup = styled.div`
     display: flex;
@@ -38,7 +39,7 @@ export const RadioGroup = styled.div`
     input{
         margin-left: 20px;
         margin-right: 5px;
-        accent-color: black;
+        accent-color: #000000;
         margin-top: 0;
     }
 `
@@ -48,5 +49,7 @@ export const button = styled.button`
     border-radius: 5px;
     cursor: pointer;
     color:white;
-    background-color: teal;
+    background-image: linear-gradient(to bottom, #8e2de2, #4a00e0);
+
+    
 `

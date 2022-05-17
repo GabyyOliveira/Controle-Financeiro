@@ -5,10 +5,21 @@ export const Container =  styled.div`
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 15px;
     width: 30%;
+    // border: 1px solid gray;
+    box-shadow:  1.5px 1.05px 5.5px #c3c3c3,  -1.5px -0.05px 6.5px #c3c3c3;
 
+    :hover{
+        color: black;
+
+        box-shadow: inset 10px 10px 30px #c3c3c3, inset -10px -10px 30px #ffffff;
+
+        header{
+            font-weight: bold;
+        }
+    }
     @media (max-width: 750px){
         width: 20%;
         p{
@@ -33,11 +44,14 @@ export const Header = styled.header`
     width: 100%;
     gap: 10px;
     margin: 20px;
+    
 
     svg{
         width:25px;
         height: 25px;
+        color: #4a00e0;
     }
+
 `;
 
 export const headerTitle = styled.p`

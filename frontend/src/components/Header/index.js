@@ -5,7 +5,7 @@ const Navbar = () =>{
     return(
         <C.Container>
             <C.Navbar>
-                <C.Title>Controle Financeiro</C.Title>
+                <C.Title>My Finance</C.Title>
             </C.Navbar>
         </C.Container>
     )
